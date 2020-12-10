@@ -1,0 +1,51 @@
+body {
+  font-family: "Dancing Script", cursive;
+}
+main {
+  margin: auto;
+  text-align: center;
+  margin: 0;
+}
+.title {
+  display: block;
+  height: 15vh;
+  background-color: rgb(255, 217, 0);
+  margin-bottom: 20px;
+}
+h1 {
+  padding: 30px;
+  text-align: center;
+}
+
+.input-textarea {
+  width: 50%;
+  margin: auto;
+  resize: none;
+  height: 10rem;
+  padding: 10px;
+  font-size: 1.5rem;
+  border-radius: 15px;
+  outline: none;
+  border: 5px solid rgb(255, 217, 0);
+  display: block;
+}
+
+.input-textarea::placeholder {
+  font-family: "Dancing Script", cursive;
+}
+
+.translate-button {
+  outline: none;
+  padding: 20px;
+  background-color: rgb(51, 26, 141);
+  border: none;
+  border-radius: 20px;
+  font-size: 1.5rem;
+  color: white;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.output-textarea {
+  background-color: white;
+}
